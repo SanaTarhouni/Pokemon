@@ -1,33 +1,33 @@
-.App {
-  text-align: center;
+
+.search-pokemon  {
+   
+  margin-top: 12rem; 
+ 
+} 
+.ui.search.dropdown{
+  margin-top: 12rem; 
+
+}
+*, :after, :before {
+   box-sizing:  content-box;
+}
+.ui.selection.dropdown {
+
+  min-height: 2em;
+}
+.ui.grid>.row {
+
+  margin-left: 20rem;
+
+}
+.ui.card:first-child {
+    margin-top: 1em !important;
+}
+  
+.ui.card {
+    margin-right: 2em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
